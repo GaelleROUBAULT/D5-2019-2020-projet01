@@ -1,0 +1,46 @@
+
+.colonne {
+   column-count: 3;
+   column-gap: 4vw;
+   padding-top: 10vw;
+   padding-bottom: 10vw;
+  }
+
+@media only screen and (max-width: 800px) {
+    .colonne {
+      column-count: 2;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+      .colonne {
+        column-count: 1;
+      }
+    }
+
+html {
+background: #D4D3D2;
+padding-left: 7vw;
+padding-right: 7vw;
+padding-top: 10vw;
+text-align: justify;
+}
+
+b {
+font-weight: bold;
+font-size: 1.25em;
+}
+
+p {
+  line-height: 30px;   /* within paragraph */
+  margin-bottom: 35px; /* between paragraphs */
+  }
+
+body {
+color : #393939;
+margin-bottom: 2rem;
+font-family: Playfair Display;
+font-size: 1em;
+line-height: 2rem;
+font-weight: 400;
+font-style: normal;
+}
